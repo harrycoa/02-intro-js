@@ -1,4 +1,3 @@
-
 // Variables
 const nombre = 'dssd';
 let dado = 5;
