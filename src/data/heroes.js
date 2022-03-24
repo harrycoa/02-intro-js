@@ -29,10 +29,18 @@ const heroes = [
 
 const owners = ['DC','Marvel'];
 
+// exportando un metodo
+const getHeroeById = (id) => {
+    return heroes.find( (heroe) => heroe.id === id);
+}
+
 // export default heroes;
 
 
 export {
     heroes as default,
-    owners
+    owners,
+    getHeroeById
 }
+
+

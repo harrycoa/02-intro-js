@@ -7,7 +7,7 @@ const getHeroeById = (id) => {
 }
 
 
-const getHeroeByOwner = (owner) => {
+export const getHeroeByOwner = (owner) => {
     return heroes.filter( (heroedc) => heroedc.owner === owner );
 }
 
